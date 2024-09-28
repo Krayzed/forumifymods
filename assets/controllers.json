@@ -1,0 +1,72 @@
+{
+    "controllers": {
+        "@forumify/forumify-platform": {
+            "code_editor": {
+                "enabled": true,
+                "fetch": "lazy",
+                "autoimport": []
+            },
+            "comment_edit": {
+                "enabled": true,
+                "fetch": "lazy",
+                "autoimport": []
+            },
+            "file_upload": {
+                "enabled": true,
+                "fetch": "eager",
+                "autoimport": []
+            },
+            "menu": {
+                "enabled": true,
+                "fetch": "eager",
+                "autoimport": []
+            },
+            "modal": {
+                "enabled": true,
+                "fetch": "eager",
+                "autoimport": []
+            },
+            "plugin_manager": {
+                "enabled": true,
+                "fetch": "lazy",
+                "autoimport": []
+            },
+            "rich_editor": {
+                "enabled": true,
+                "fetch": "eager",
+                "autoimport": []
+            },
+            "tabs": {
+                "enabled": true,
+                "fetch": "eager",
+                "autoimport": []
+            },
+            "theme": {
+                "enabled": true,
+                "fetch": "eager",
+                "autoimport": []
+            }
+        },
+        "@symfony/ux-autocomplete": {
+            "autocomplete": {
+                "enabled": true,
+                "fetch": "eager",
+                "autoimport": {
+                    "tom-select/dist/css/tom-select.default.css": true,
+                    "tom-select/dist/css/tom-select.bootstrap4.css": false,
+                    "tom-select/dist/css/tom-select.bootstrap5.css": false
+                }
+            }
+        },
+        "@symfony/ux-live-component": {
+            "live": {
+                "enabled": true,
+                "fetch": "eager",
+                "autoimport": {
+                    "@symfony/ux-live-component/dist/live.min.css": true
+                }
+            }
+        }
+    },
+    "entrypoints": []
+}

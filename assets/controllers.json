@@ -1,5 +1,12 @@
 {
     "controllers": {
+        "@forumify/forumify-perscom-plugin": {
+            "user_edit": {
+                "enabled": true,
+                "fetch": "lazy",
+                "autoimport": []
+            }
+        },
         "@forumify/forumify-platform": {
             "code_editor": {
                 "enabled": true,

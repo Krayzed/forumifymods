@@ -4,6 +4,7 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
+        "forumify/forumify-perscom-plugin": "^0.2.12",
         "forumify/forumify-platform": "^0.2",
         "symfony/flex": "^2",
         "symfony/runtime": "6.4.*"
